@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #2c3e50, #34495e); 
+    color: #ecf0f1; 
+}
+
+section {
+    padding: 60px 0;
+}
+
+h1.display-4 {
+    font-weight: bold;
+    color: #ecf0f1; 
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#about {
+    background-color: #f8f9fa; 
+    color: #333333;
+    padding: 60px 0; 
+}
+
+#about .display-4 {
+    font-size: 2.5rem; 
+    color: #2c3e50; 
+}
+
+#about .lead {
+    font-size: 1.2rem;
+    color: #555555; 
+}
+
+#about img {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+section img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+    margin-bottom: 15px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #ffffff; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333333; 
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555555; 
+}
+.btn-primary {
+    background-color: #007bff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+
+footer {
+    background-color: #212529;
+    color: #ecf0f1; 
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff; 
+    text-decoration: underline;
+}
+#projects .display-4,
+#books .display-4 {
+    color: #2c3e50; 
+}
+.social-links a {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; 
+  }
+  #home {
+  
+    height: 100vh;
+  }
+  
